@@ -1000,7 +1000,7 @@ NSString *ext_stringFromTypedBytes (const void *bytes, const char *encoding) {
         case 'd': return @(*(double *)bytes).description;
         case 'B': return @(*(_Bool *)bytes).description;
         case 'v': return @"(void)";
-        case '*': return [NSString stringWithFormat:@"\"%s\"", bytes];
+        case '*': return [NSString stringWithFormat:@"\"%s\"", (const char *)bytes];
 
         case '@':
         case '#': {

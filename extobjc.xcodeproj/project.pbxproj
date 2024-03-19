@@ -660,6 +660,7 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -670,6 +671,7 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -741,6 +743,7 @@
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Logic Tests";
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -760,6 +763,7 @@
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Logic Tests";
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

@@ -9,6 +9,7 @@
 
 #import "EXTADT.h"
 #import "EXTConcreteProtocol.h"
+#import "EXTCoroutine.h"
 #import "EXTKeyPathCoding.h"
 #import "EXTNil.h"
 #import "EXTSafeCategory.h"
